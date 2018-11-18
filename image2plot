@@ -1,0 +1,4 @@
+>> new_img = imread('Tv36-edge.jpg')
+>> [rw,co] = find(new_img == 0);
+>> new_img0 = [rw,co];
+>> csvwrite('new_img0.txt',new_img0);
